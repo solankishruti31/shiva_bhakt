@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🔱 Shiva Inside You 🔱</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 🔊 Music Toggle -->
+  <div class="music-toggle" id="musicToggle">🔊</div>
+
+  <!-- 🔱 Main Title -->
+  <h1 class="main-title">🔱 Shiva Inside You 🔱<br><span class="mantra">ॐ नमः शिवाय</span></h1>
+
+  <!-- 🔘 Container -->
+  <div class="container">
+
+    <!-- 🌟 Overview Section -->
+    <div id="startScreen">
+      <div class="overview-text">
+        <h2>🕉️ Welcome to the Shiva Bhakt Game</h2>
+        <ul class="overview">
+          <li><strong>🌟 Explore your inner devotion</strong></li>
+          <li><em>🌿 Discover what type of Shiva Bhakt you are</em></li>
+          <li>🎵 Enjoy sacred music while playing</li>
+        </ul>
+        <button class="start-btn">🔱 Start Game</button>
+      </div>
+    </div>
+
+    <!-- ❓ Quiz Section -->
+    <div id="quizScreen" class="question-box hidden" style="display: none;">
+      <p id="question" class="question-text"></p>
+      <button id="btn1" class="answer-btn"></button>
+      <button id="btn2" class="answer-btn"></button>
+    </div>
+
+    <!-- 🙏 Name Entry -->
+    <div id="nameScreen" class="question-box hidden" style="display: none;">
+      <p class="question-text">Enter your name:</p>
+      <input type="text" id="userNameInput" placeholder="Your name" autocomplete="off" />
+      <button id="submitNameBtn" class="answer-btn">🔍 See Result</button>
+    </div>
+
+  </div>
+
+  <!-- 🎶 Background Music -->
+  <audio id="bgMusic" src="Lord_Shiva_Music.MP3" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
