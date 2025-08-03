@@ -124,219 +124,239 @@ const shivaQuestions = [
     a1: { text: "Loving Devotee", type: "devotional" },
     a2: { text: "Universal Mystic", type: "mystic" }
   },
-   {
-    q: "🌅 Peaceful Sunrise Practice or 🌇 Reflective Sunset Moment?\n🌅 શાંત સવારની સાધના કે 🌇 સંવેદનશીલ સાંજનું ધ્યાન?",
-    a1: { text: "Morning Devotion", type: "peaceful" },
-    a2: { text: "Evening Reflection", type: "peaceful" }
+    {
+    q: "🕉️ Immersing in mantra waves or 🔕 Sitting in absolute silence?\n🕉️ મંત્રની તરંગોમાં લીન થવું કે 🔕 સંપૂર્ણ મૌનમાં બેસવું?",
+    a1: { text: "Mantra Flow", type: "spiritual" },
+    a2: { text: "Silent Being", type: "renunciate" }
   },
   {
-    q: "🔥 Standing Tall in Storm or 🕉️ Meditating Through Chaos?\n🔥 તોફાનમાં અડગ ઊભા રહેવું કે 🕉️ અશાંતિમાં ધ્યાનમાં જવું?",
-    a1: { text: "Face It Fiercely", type: "fierce" },
-    a2: { text: "Stay Calm Inside", type: "spiritual" }
+    q: "🌄 Sunrise prayer on mountaintop or 🌌 Stargazing with cosmic thoughts?\n🌄 પર્વત શિખરે પ્રાર્થના કે 🌌 તારલાઓમાં બ્રહ્માંડનું ધ્યાન?",
+    a1: { text: "Mountain Devotee", type: "devotional" },
+    a2: { text: "Starry Seeker", type: "mystic" }
   },
   {
-    q: "🔱 Chanting Om Namah Shivaya or 🪔 Offering aarti daily?\n🔱 ઓમ નમઃ શિવાયના જાપ કરવી કે 🪔 દરરોજ આરતી અર્પણ કરવી?",
-    a1: { text: "Mantra Meditation", type: "spiritual" },
-    a2: { text: "Daily Devotion", type: "devotional" }
+    q: "⚔️ Standing for justice or 🌬️ Forgiving with grace?\n⚔️ ન્યાય માટે લડવું કે 🌬️ કૃપાથી માફ કરવું?",
+    a1: { text: "Justice Warrior", type: "warrior" },
+    a2: { text: "Graceful Healer", type: "healer" }
   },
   {
-    q: "🌌 Exploring deep silence within or 🕳️ Entering the unknown caves of wisdom?\n🌌 અંદરની ગહન શાંતિ શોધવી કે 🕳️ જ્ઞાનની અજાણી ગુફામાં પ્રવેશવું?",
-    a1: { text: "Mystic Journey", type: "mystic" },
-    a2: { text: "Cave of Truth", type: "wise" }
+    q: "📿 Losing self in japa or 🔭 Contemplating cosmic truth?\n📿 જપમાં પોતાને ભુલાવવું કે 🔭 બ્રહ્માંડના સત્ય પર ધ્યાન?",
+    a1: { text: "Sacred Repeater", type: "spiritual" },
+    a2: { text: "Cosmic Thinker", type: "seer" }
   },
   {
-    q: "⚔️ Protect Dharma or 🌿 Heal the hurting?\n⚔️ ધર્મની રક્ષા કરવી કે 🌿 દુ:ખી લોકોને આરામ આપવો?",
-    a1: { text: "Be a Warrior", type: "warrior" },
-    a2: { text: "Be a Healer", type: "healer" }
+    q: "🌲 Forest solitude or 🏙️ Inner peace amidst chaos?\n🌲 જંગલમાં એકાંત કે 🏙️ શહેરની અશાંતિમાં શાંતિ શોધવી?",
+    a1: { text: "Forest Renunciate", type: "renunciate" },
+    a2: { text: "Urban Mystic", type: "mystic" }
   },
   {
-    q: "🌲 Living in solitude or 🧘 Teaching seekers?\n🌲 એકાંતમાં રહેવું કે 🧘 શોધકને માર્ગદર્શન આપવું?",
-    a1: { text: "Silent Renunciation", type: "renunciate" },
-    a2: { text: "Guide with Wisdom", type: "seer" }
+    q: "👣 Following the Guru’s path or 🔥 Creating your own dharmic fire?\n👣 ગુરુનો માર્ગ અનુસરવો કે 🔥 પોતાનું ધર્મજ્વાળ ઊપજાવવું?",
+    a1: { text: "Faithful Devotee", type: "devotional" },
+    a2: { text: "Fiery Warrior", type: "warrior" }
   },
   {
-    q: "🛕 Visiting sacred temples or 🏞️ Meditating in nature?\n🛕 પવિત્ર મંદિરની મુલાકાત કે 🏞️ પ્રકૃતિમાં ધ્યાન?",
-    a1: { text: "Temple Devotion", type: "devotional" },
-    a2: { text: "Nature Peace", type: "peaceful" }
+    q: "💧 Flowing with Ganga or 🌪️ Dissolving ego in storm?\n💧 ગંગામાં વહેવું કે 🌪️ તોફાનમાં અહંકાર ભંગ કરવો?",
+    a1: { text: "Divine Flow", type: "peaceful" },
+    a2: { text: "Stormy Renunciate", type: "fierce" }
   },
   {
-    q: "🌩️ Dancing like Nataraja or 💭 Silently contemplating truth?\n🌩️ નટરાજની જેમ નૃત્ય કરવું કે 💭 શાંતપણે સત્ય પર વિચાર કરવો?",
-    a1: { text: "Cosmic Energy", type: "fierce" },
-    a2: { text: "Inner Awareness", type: "wise" }
+    q: "📜 Memorizing ancient chants or 🔍 Searching answers within?\n📜 પ્રાચીન મંત્રોનું સ્મરણ કે 🔍 અંદરથી જવાબ શોધવો?",
+    a1: { text: "Scripture Bearer", type: "seer" },
+    a2: { text: "Inner Seeker", type: "wise" }
   },
   {
-    q: "🕯️ Lighting a lamp for others or 🔍 Seeking light within?\n🕯️ બીજાના માટે દીવો પ્રગટાવવો કે 🔍 અંદરનો પ્રકાશ શોધવો?",
-    a1: { text: "Compassionate Healer", type: "healer" },
-    a2: { text: "Mystic Seeker", type: "mystic" }
+    q: "🛐 Creating sacred rituals or 🤲 Healing hearts with words?\n🛐 પવિત્ર વિધિઓ રચવી કે 🤲 શબ્દોથી દિલને ચિકિત્સા આપવી?",
+    a1: { text: "Ritual Devotee", type: "devotional" },
+    a2: { text: "Spoken Healer", type: "healer" }
   },
   {
-    q: "📿 Reciting sacred verses or 🧗‍♂️ Testing spiritual limits?\n📿 પવિત્ર શ્લોકોનું પાઠ કરવો કે 🧗‍♂️ આધ્યાત્મિક સીમાઓને અજમાવવી?",
-    a1: { text: "Humble Devotee", type: "devotional" },
-    a2: { text: "Fearless Explorer", type: "warrior" }
+    q: "🧱 Building temples or 🌀 Building inner temple?\n🧱 મંદિરો બનાવવી કે 🌀 આંતરિક મંદિરનું નિર્માણ?",
+    a1: { text: "Sacred Builder", type: "peaceful" },
+    a2: { text: "Inner Architect", type: "mystic" }
   },
   {
-    q: "🪷 Practicing daily meditation or 🗻 Retreating into the Himalayas?\n🪷 રોજ ધ્યાન કરવું કે 🗻 હિમાલયમાં પ્રવેશવું?",
-    a1: { text: "Daily Practice", type: "spiritual" },
-    a2: { text: "Sage’s Retreat", type: "renunciate" }
+    q: "🗡️ Cutting through illusion or 🧘 Melting into stillness?\n🗡️ મૃગતૃષ્ના તોડવી કે 🧘 શાંતિમાં ઓગળવું?",
+    a1: { text: "Illusion Slayer", type: "fierce" },
+    a2: { text: "Still Yogi", type: "spiritual" }
   },
   {
-    q: "💫 Receiving divine visions or 🧠 Gaining inner knowledge?\n💫 દૈવી દર્શન પ્રાપ્ત કરવો કે 🧠 અંદરનું જ્ઞાન પ્રાપ્ત કરવું?",
-    a1: { text: "Divine Seer", type: "seer" },
-    a2: { text: "Wise Thinker", type: "wise" }
+    q: "🪷 Guiding others to peace or 👁️ Seeking your divine origin?\n🪷 બીજાને શાંતિ તરફ દોરી જવું કે 👁️ પોતાની દૈવી મૂળ શોધવી?",
+    a1: { text: "Peace Teacher", type: "seer" },
+    a2: { text: "Origin Seeker", type: "wise" }
   },
   {
-    q: "🦋 Whispering healing mantras or 🛡️ Defending the innocent?\n🦋 હીલિંગ મંત્રોનું પઠન કરવું કે 🛡️ નિર્દોષની રક્ષા કરવી?",
-    a1: { text: "He-aling Touch", type: "healer" },
-    a2: { text: "Bold Protector", type: "warrior" }
+    q: "🏹 Leading with courage or 🧘‍♀️ Leading with presence?\n🏹 હિંમતથી નેતૃત્વ કરવું કે 🧘‍♀️ હાજરીથી નેતૃત્વ કરવું?",
+    a1: { text: "Valiant Warrior", type: "warrior" },
+    a2: { text: "Mindful Guide", type: "peaceful" }
   },
   {
-    q: "🕉️ Sitting under a Bodhi tree or 🔥 Walking through fire for truth?\n🕉️ બોધ વૃક્ષ નીચે ધ્યાન કરવું કે 🔥 સત્ય માટે અગ્નિમાં ચાલવું?",
-    a1: { text: "Peaceful Seeker", type: "peaceful" },
-    a2: { text: "Fierce Believer", type: "fierce" }
+    q: "🔥 Walking barefoot on embers or 💧 Letting tears heal you?\n🔥 અગ્નિ પર પગલા મૂકવા કે 💧 આશૂઓથી આરામ મેળવવો?",
+    a1: { text: "Fire Walker", type: "fierce" },
+    a2: { text: "Healed by Grace", type: "healer" }
   },
   {
-    q: "🌠 Discovering inner cosmos or 📜 Studying ancient scriptures?\n🌠 અંદરનું બ્રહ્માંડ શોધવું કે 📜 પ્રાચીન ગ્રંથોનો અભ્યાસ કરવો?",
-    a1: { text: "Mystic Mind", type: "mystic" },
-    a2: { text: "Scriptural Wisdom", type: "wise" }
+    q: "📖 Reading lives of saints or ✨ Listening to the universe?\n📖 સંતોના જીવન વાંચવા કે ✨ બ્રહ્માંડની ભાષા સાંભળવી?",
+    a1: { text: "Devout Reader", type: "devotional" },
+    a2: { text: "Universal Listener", type: "mystic" }
   },
   {
-    q: "🧎‍♂️ Bhakti with full heart or 🧘 Self-awareness through silence?\n🧎‍♂️ પૂરેપૂરાં હૃદયથી ભક્તિ કરવી કે 🧘 મૌન દ્વારા આત્મજ્ઞાન મેળવવું?",
-    a1: { text: "Devoted Heart", type: "devotional" },
-    a2: { text: "Inner Awareness", type: "spiritual" }
+    q: "🔗 Letting go of karma or 💥 Facing it fully?\n🔗 કર્મ છોડવો કે 💥 તેનું સામનો કરવો?",
+    a1: { text: "Detached Sage", type: "renunciate" },
+    a2: { text: "Karma Warrior", type: "warrior" }
   },
   {
-    q: "🌿 Healing wounds of others or 🌪️ Breaking ego through penance?\n🌿 બીજાના ઘાવ સાજા કરવી કે 🌪️ તપ દ્વારા અહંકાર તોડવો?",
-    a1: { text: "Sacred Healer", type: "healer" },
-    a2: { text: "Intense Renunciate", type: "renunciate" }
+    q: "🧚 Healing with touch or 💬 Healing with truth?\n🧚 સ્પર્શથી આરામ આપવો કે 💬 સત્યથી ચિકિત્સા કરવી?",
+    a1: { text: "Touch Healer", type: "healer" },
+    a2: { text: "Truth Healer", type: "seer" }
   },
   {
-    q: "🧙‍♂️ Sharing divine teachings or 👁️‍🗨️ Seeing truth beyond illusion?\n🧙‍♂️ દૈવી જ્ઞાન વહેંચવું કે 👁️‍🗨️ મૃગતૃષ્નાથી પરે સત્ય જોવું?",
-    a1: { text: "Sage’s Voice", type: "seer" },
-    a2: { text: "Truth Vision", type: "mystic" }
+    q: "🌈 Living from the heart or 🌀 Living beyond the mind?\n🌈 દિલથી જીવવું કે 🌀 મનથી પર જીવન જીવવું?",
+    a1: { text: "Heart Devotee", type: "devotional" },
+    a2: { text: "Transcendent Mystic", type: "mystic" }
   },
   {
-    q: "🎯 Focus on duty or 🕊️ Surrender to divine?\n🎯 કર્તવ્ય પર ધ્યાન કે 🕊️ ઈશ્વર સમર્પણ?",
-    a1: { text: "Dharma Warrior", type: "warrior" },
-    a2: { text: "Peaceful Bhakt", type: "devotional" }
+    q: "🧠 Learning endlessly or 🕉️ Knowing beyond learning?\n🧠 શીખતાં રહેવું કે 🕉️ શીખવાથી પરે જવું?",
+    a1: { text: "Wise Learner", type: "wise" },
+    a2: { text: "Spiritual Knower", type: "spiritual" }
   },
   {
-    q: "🪖 March with purpose or 🧘‍♂️ Meditate with intent?\n🪖 હેતુ સાથે આગળ વધવું કે 🧘‍♂️ ઇરાદાપૂર્વક ધ્યાન કરવું?",
-    a1: { text: "Purposeful Warrior", type: "warrior" },
-    a2: { text: "Focused Yogi", type: "spiritual" }
+    q: "🧹 Serving quietly or 🌟 Inspiring boldly?\n🧹 શાંતિથી સેવા કરવી કે 🌟 નિર્ભયતાથી પ્રેરણા આપવી?",
+    a1: { text: "Silent Server", type: "peaceful" },
+    a2: { text: "Bold Inspirer", type: "fierce" }
   },
   {
-    q: "👃 Breathing with awareness or 🌠 Gazing at the stars for signs?\n👃 સ્ફૂર્તિના સાથે શ્વાસ લેવું કે 🌠 તારાઓમાં સંકેતો શોધવા?",
-    a1: { text: "Inner Breath", type: "peaceful" },
-    a2: { text: "Cosmic Sign Reader", type: "seer" }
+    q: "📿 Repeating 108 times or 📖 Understanding one fully?\n📿 ૧૦૮ વાર જપ કરવો કે 📖 એક જપને સંપૂર્ણ સમજી લેવો?",
+    a1: { text: "Disciplined Devotee", type: "devotional" },
+    a2: { text: "Deep Seeker", type: "wise" }
   },
   {
-    q: "🌀 Embracing the unknown or 🔬 Analyzing sacred logic?\n🌀 અજાણ્યાને અપનાવવું કે 🔬 પવિત્ર તર્કને સમજી લેવું?",
-    a1: { text: "Mystic Opener", type: "mystic" },
-    a2: { text: "Logical Wise One", type: "wise" }
+    q: "👣 Walking the ancient path or 🚀 Redefining the journey?\n👣 પ્રાચીન માર્ગ પર ચાલવું કે 🚀 યાત્રાને નવી દિશા આપવી?",
+    a1: { text: "Tradition Holder", type: "seer" },
+    a2: { text: "Path Breaker", type: "warrior" }
   },
   {
-    q: "🧘 Letting go of desires or ❤️ Loving the divine with longing?\n🧘 ઈચ્છાઓને છોડવી કે ❤️ તીવ્ર ભક્તિથી ઈશ્વરને પ્રેમ કરવો?",
-    a1: { text: "True Renunciate", type: "renunciate" },
-    a2: { text: "Longing Devotee", type: "devotional" }
+    q: "🌌 Feeling Oneness or 🪞 Witnessing Self?\n🌌 એકતાનું અનુભવ કરવો કે 🪞 સ્વનું દર્શન કરવું?",
+    a1: { text: "Oneness Mystic", type: "mystic" },
+    a2: { text: "Self Witness", type: "renunciate" }
   },
   {
-    q: "🏹 Fighting inner demons or ✨ Healing past karma?\n🏹 આંતરિક દાનવો સાથે લડવું કે ✨ ભૂતકાળના કર્મોને ચિકિત્સા આપવી?",
-    a1: { text: "Inner Warrior", type: "warrior" },
-    a2: { text: "Karmic Healer", type: "healer" }
+    q: "🕊️ Blessing all beings or ⚔️ Conquering inner conflict?\n🕊️ સર્વ જીવ માટે આશીર્વાદ કે ⚔️ આંતરિક સંઘર્ષનો વિજય?",
+    a1: { text: "Universal Healer", type: "healer" },
+    a2: { text: "Inner Conqueror", type: "fierce" }
   },
   {
-    q: "📚 Teaching spiritual truth or 🤲 Helping others awaken?\n📚 આધ્યાત્મિક સત્ય શીખવવું કે 🤲 બીજાને જાગૃત કરવું?",
-    a1: { text: "Truth Teacher", type: "seer" },
-    a2: { text: "Awakening Guide", type: "spiritual" }
+    q: "🎵 Singing bhajans or 🔇 Dissolving in silence?\n🎵 ભજન ગાવા કે 🔇 મૌનમાં ઓગળવું?",
+    a1: { text: "Devotional Singer", type: "devotional" },
+    a2: { text: "Silent Yogi", type: "spiritual" }
   }
 ];
 
-const musicToggle = document.getElementById("musicToggle");
-const bgMusic = document.getElementById("bgMusic");
-const startBtn = document.querySelector(".start-btn");
-const questionEl = document.getElementById("question");
-const btn1 = document.getElementById("btn1");
-const btn2 = document.getElementById("btn2");
-const quizScreen = document.getElementById("quizScreen");
-const startScreen = document.getElementById("startScreen");
-const nameScreen = document.getElementById("nameScreen");
-const submitNameBtn = document.getElementById("submitNameBtn");
-const userNameInput = document.getElementById("userNameInput");
+document.addEventListener("DOMContentLoaded", function () {
+  const startBtn = document.getElementById("startBtn");
+  const quizScreen = document.getElementById("quizScreen");
+  const startScreen = document.getElementById("startScreen");
+  const nameScreen = document.getElementById("nameScreen");
+  const questionEl = document.getElementById("question");
+  const option1 = document.getElementById("btn1");
+  const option2 = document.getElementById("btn2");
+  const submitNameBtn = document.getElementById("submitNameBtn");
+  const userNameInput = document.getElementById("userNameInput");
+  const bgMusic = document.getElementById("bgMusic");
+  const musicToggle = document.getElementById("musicToggle");
 
-let musicPlaying = true;
-let currentQuestionIndex = 0;
-let selectedTypes = [];
-let selectedQuestions = [];
+  let currentQuestionIndex = 0;
+  let selectedTypes = [];
+  let selectedQuestions = [];
 
-
-function shuffleArray(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
+  function showQuestion() {
+    const current = selectedQuestions[currentQuestionIndex];
+    questionEl.textContent = current.q;
+    option1.textContent = current.a1.text;
+    option1.setAttribute("data-type", current.a1.type);
+    option2.textContent = current.a2.text;
+    option2.setAttribute("data-type", current.a2.type);
+    option1.classList.remove("selected");
+    option2.classList.remove("selected");
+    option1.disabled = false;
+    option2.disabled = false;
   }
-  return array;
-}
 
-function showQuestion() {
-  const current = selectedQuestions[currentQuestionIndex];
-  questionEl.textContent = current.q;
-  btn1.textContent = current.a1.text;
-  btn2.textContent = current.a2.text;
+  function handleOptionClick(e) {
+    option1.classList.remove("selected");
+    option2.classList.remove("selected");
+    e.target.classList.add("selected");
+    selectedTypes[currentQuestionIndex] = e.target.getAttribute("data-type");
 
-  btn1.onclick = () => handleAnswer(current.a1.type);
-  btn2.onclick = () => handleAnswer(current.a2.type);
-}
+    // Disable both to prevent double-clicks
+    option1.disabled = true;
+    option2.disabled = true;
 
-function handleAnswer(type) {
-  selectedTypes.push(type);
-  currentQuestionIndex++;
-  if (currentQuestionIndex < selectedQuestions.length) {
-    showQuestion();
-  } else {
-    quizScreen.style.display = "none";
-    nameScreen.style.display = "block";
+    setTimeout(() => {
+      currentQuestionIndex++;
+      if (currentQuestionIndex < selectedQuestions.length) {
+        showQuestion();
+      } else {
+        quizScreen.style.display = "none";
+        nameScreen.style.display = "block";
+        userNameInput.focus();
+      }
+    }, 500);
   }
-}
 
-function getMostFrequentType(arr) {
-  const count = {};
-  arr.forEach((type) => {
-    count[type] = (count[type] || 0) + 1;
+  option1.addEventListener("click", handleOptionClick);
+  option2.addEventListener("click", handleOptionClick);
+
+  submitNameBtn.addEventListener("click", () => {
+    const name = userNameInput.value.trim();
+    if (!name) return alert("Please enter your name.");
+
+    const counts = {};
+    selectedTypes.forEach(type => {
+      counts[type] = (counts[type] || 0) + 1;
+    });
+    const finalType = Object.entries(counts).sort((a, b) => b[1] - a[1])[0][0];
+    const params = new URLSearchParams({ name, type: finalType });
+    window.location.href = `result.html?${params.toString()}`;
   });
-  return Object.keys(count).reduce((a, b) => (count[a] > count[b] ? a : b));
-}
 
-submitNameBtn.addEventListener("click", () => {
-  const name = userNameInput.value.trim();
-  if (name !== "") {
-    const dominantType = getMostFrequentType(selectedTypes);
-    const url = `result.html?name=${encodeURIComponent(name)}&type=${encodeURIComponent(dominantType)}`;
-    window.location.href = url;
-  }
-});
+  startBtn.addEventListener("click", () => {
+    bgMusic.play().then(() => {
+      console.log("✅ Music started");
+    }).catch((err) => {
+      console.warn("⚠️ Music play blocked:", err);
+    });
 
-startBtn.addEventListener("click", () => {
-  bgMusic.play();
-  startScreen.style.display = "none";
-  quizScreen.style.display = "block";
-  selectedQuestions = shuffleArray([...shivaQuestions]).slice(0, 5);
-  currentQuestionIndex = 0;
-  selectedTypes = [];
-  showQuestion();
-});
+    startScreen.style.display = "none";
+    quizScreen.style.display = "block";
+    selectedQuestions = shuffleArray([...shivaQuestions]).slice(0, 5);
+    currentQuestionIndex = 0;
+    selectedTypes = [];
+    showQuestion();
+  });
 
-// ✅ Ensure music starts when page is interacted
-document.body.addEventListener("click", () => {
-  bgMusic.play().catch(() => {});
-}, { once: true });
+  // ✅ Music Toggle Working
+  musicToggle.addEventListener("click", () => {
+    if (bgMusic.paused) {
+      bgMusic.play();
+      musicToggle.textContent = "🔊";
+    } else {
+      bgMusic.pause();
+      musicToggle.textContent = "🔇";
+    }
+  });
 
-// ✅ Toggle music on icon click
-musicToggle.addEventListener("click", () => {
-  if (!bgMusic.paused) {
-    bgMusic.pause();
-    musicToggle.textContent = "🔇";
-  } else {
-    bgMusic.play().catch(() => {});
-    musicToggle.textContent = "🔊";
+  // ✅ iOS touchstart fix
+  document.body.addEventListener("touchstart", () => {
+    if (bgMusic.paused) {
+      bgMusic.play().catch(() => {});
+    }
+  }, { once: true });
+
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
   }
 });
