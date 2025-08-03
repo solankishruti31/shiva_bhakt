@@ -4,16 +4,16 @@ const backgroundWrapper = document.getElementById("backgroundWrapper");
 let musicWasPlayingBeforeSpeech = false;
 
 const backgroundImages = {
-  devotional: "IMAGES/Devotional.JPG",
-  fierce: "IMAGES/Fierce.JPG",
-  healer: "IMAGES/Healer.jpg",
-  mystic: "IMAGES/Mystic.jpg",
-  peaceful: "IMAGES/Peaceful.JPG",
-  renunciate: "IMAGES/Renunciate.jpg",
-  seer: "IMAGES/Seer.jpg",
-  spiritual: "IMAGES/Spiritual.JPG",
-  warrior: "IMAGES/Warrior.jpg",
-  wise: "IMAGES/Wise.jpg"  
+  peaceful: "IMAGES/peaceful.jpg",
+  fierce: "IMAGES/fierce.jpg",
+  spiritual: "IMAGES/spiritual.jpg",
+  devotional: "IMAGES/devotional.jpg",
+  mystic: "IMAGES/mystic.jpg",
+  wise: "IMAGES/wise.jpg",
+  warrior: "IMAGES/warrior.jpg",
+  renunciate: "IMAGES/renunciate.jpg",
+  healer: "IMAGES/healer.jpg",
+  seer: "IMAGES/seer.jpg",
 };
 
 musicToggle.addEventListener("click", () => {
