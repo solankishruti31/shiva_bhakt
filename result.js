@@ -4,14 +4,14 @@ const backgroundWrapper = document.getElementById("backgroundWrapper");
 let musicWasPlayingBeforeSpeech = false;
 
 const backgroundImages = {
-  devotional: "IMAGES/Devotional.png",
-  fierce: "IMAGES/Fierce.png",
+  devotional: "IMAGES/Devotional.JPG",
+  fierce: "IMAGES/Fierce.JPG",
   healer: "IMAGES/Healer.jpg",
   mystic: "IMAGES/Mystic.jpg",
-  peaceful: "IMAGES/Peaceful.png",
+  peaceful: "IMAGES/Peaceful.JPG",
   renunciate: "IMAGES/Renunciate.jpg",
   seer: "IMAGES/Seer.jpg",
-  spiritual: "IMAGES/Spiritual.png",
+  spiritual: "IMAGES/Spiritual.JPG",
   warrior: "IMAGES/Warrior.jpg",
   wise: "IMAGES/Wise.jpg"  
 };
